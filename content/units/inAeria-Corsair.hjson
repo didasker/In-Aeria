@@ -16,7 +16,7 @@ drawCell: false
 outlines: true
 weapons: [
   {
-    x: 1
+    x: 0
     y: 0
     rotate: true
     mirror: false
@@ -38,20 +38,20 @@ weapons: [
     }
   }
   {
-    x: 0
-    y: 0
+    x: 10
+    y: -5
     rotate: true
     mirror: false
-    reload: 30
+    reload: 50
     shootSound: sap
     bullet: {
-      type: BasicBulletType
+      type: ExplosionBulletType
       width: 10
       height: 16
       weaveMag: 3
       weaveScale: 2
       lifetime: 70
-      speed: 3
+      speed: 2
       damage: 100
       trailWidth: 1.5
       trailColor: ff4444
@@ -60,20 +60,20 @@ weapons: [
     }
   }
   {
-    x: -1
-    y: 0
+    x: -10
+    y: -5
     rotate: true
     mirror: false
-    reload: 30
+    reload: 50
     shootSound: sap
     bullet: {
-      type: BasicBulletType
+      type: ExplosionBulletType
       width: 10
       height: 16
       weaveMag: 3
-      weaveScale: 2
+      weaveScale: 4
       lifetime: 70
-      speed: 3
+      speed: 2
       damage: 100
       trailWidth: 1.5
       trailColor: ff4444
