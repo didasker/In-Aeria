@@ -14,7 +14,7 @@ drawCell: false
 outlines: true
 weapons: [
   {
-   x: 0
+    x: 0
     y: 0
     shootY: 0
     baseRotation: -90
@@ -32,19 +32,22 @@ weapons: [
     ]
     shoot: {
       type: ShootBarrel
-        shots: 1
-        shotDelay: 1
-        ]
-      }
-      shootWarmupSpeed: 0.025
-      minWarmup: 0.9
-      shootSound: sap
-      bullet: {
-        damage: 15
-        speed: 0.5
-        drag: -0.03
-        lifetime: 105
-        sprite: circle-bullet
-      }
+      shots: 1
+      shotDelay: 1
+      barrels: [  // Add the key name "barrels" here
+        0,
+        1
+      ]
     }
-  ]
+    shootWarmupSpeed: 0.025
+    minWarmup: 0.9
+    shootSound: sap
+    bullet: {
+      damage: 15
+      speed: 0.5
+      drag: -0.03
+      lifetime: 105
+      sprite: circle-bullet
+    }
+  }
+]
