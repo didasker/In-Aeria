@@ -1,32 +1,56 @@
-type: GenericCrafter
-size: 3
-health: 1000
-power: -560
-consume: {
-    items: [
-        { item: "oxide", amount: 2 },
-        { item: "sand", amount: 3 }
+{
+  "type": "GenericCrafter",
+  "name": "Quartz Smelter",
+  "description": "Fuses oxide and sand, creating quartz.",
+  "size": 3,
+  "health": 560,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 100,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 640,
+    "items": {
+      "items": [
+        "sand/2",
+        "oxide/1"
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 460
+    },
+    {
+      "item": "graphite",
+      "amount": 320
+    },
+    {
+      "item": "silicon",
+      "amount": 145
+    },
+    {
+      "item": "oxide",
+      "amount": 75
+    },
+  ],
+  "category": "crafting",
+  "research": "oxidation-chamber",
+  "outputItem": "quartz/3",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawCrucibleFlame",
+        "flameColor": "9e78dc",
+        "midColor": "8c0291"
+      }
     ]
-}
-produce: {
-    items: [
-        { item: "quartz", amount: 5 }
-    ]
-}
-requirements: {
-    items: [
-        { item: "oxide", amount: 50 },
-        { item: "silicon", amount: 125 },
-        { item: "beryllium", amount: 250 },
-        { item: "graphite", amount: 300 }
-    ]
-}
-buildTime: 100
-category: production
-name: "Quartz Smelter"
-description: "Produces quartz from oxide and sand."
-icon: "inAeria-quartzSmelter.png"
-inEditor: true
-drawers: {
-    type: "DrawCrucibleFlame"
+  }
 }
