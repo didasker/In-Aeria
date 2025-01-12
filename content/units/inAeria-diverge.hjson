@@ -3,10 +3,11 @@ speed: 5
 accel: 0.06
 drag: 0.05
 flying: true
-hitSize: 7
+hitSize: 1
 health: 75
 armor: 1
 lowAltitude: false
+name: "inAeria-diverge"
 shadowElevationScl: 0.9
 range: 20
 maxRange: 20
@@ -17,7 +18,8 @@ weapons: [
     x: 0
     y: 0
     shootY: 0
-    reload: 15
+    baseRotation: -90
+    reload: 50
     alternate: false
     parts: [
       {
@@ -30,18 +32,23 @@ weapons: [
       }
     ]
     shoot: {
-      type: BasicBulletType
-      width: 6
-      height: 10
-      weaveMag: 4
-      weaveScale: 4
-      lifetime: 45
-      speed: 3
-      damage: 9
-      trailWidth: 1.5
-      trailColor: d9dcbc
-      trailLength: 6
-      trailChance: -1
+      type: ShootBarrel
+      shots: 2
+      shotDelay: 1
+      barrels: [
+        -1, 1, 0,
+        1, 1, 0
+      ]
+    }
+    shootWarmupSpeed: 0.025
+    minWarmup: 0.1
+    shootSound: sap
+    bullet: {
+      damage: 15
+      speed: 0.5
+      drag: -0.03
+      lifetime: 105
+      sprite: circle-bullet
     }
   }
 ]
