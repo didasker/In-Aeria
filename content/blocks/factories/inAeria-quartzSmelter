@@ -10,7 +10,7 @@ consume: {
 }
 produce: {
     items: [
-        { item: "copper", amount: 5 }
+        { item: "quartz", amount: 5 }
     ]
 }
 requirements: {
@@ -26,7 +26,7 @@ buildTime: 100
 category: production
 name: "Quartz Smelter"
 description: "Produces quartz from oxide and sand."
-icon: "quartz"
+icon: "inAeria-quartzSmelter.png"
 drawers: {
     type: "DrawCrucibleFlame"
 }
