@@ -1,6 +1,19 @@
-type: item
-name: "Quartz"
-description: "A common mineral used in electronics."
-icon: "inAeria-quartz"
-color: 0xffffff
-category: resource
+{
+  "name": "Quartz",
+  "description": "A very useful component in technology, crafted from Sand and Oxide.",
+  "details": "Psammos reference, much?",
+  "cost": 2.5,
+  "color": "ffffff", 
+  "hardness": 7,
+  "flammability": 0,
+  "explosiveness": 0,
+  "research": {
+    "parent": "oxide",
+    "requirements": [
+      {
+        "item": "quartz",
+        "amount": 1
+      }
+    ]
+  }
+}
