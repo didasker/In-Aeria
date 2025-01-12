@@ -42,10 +42,10 @@ weapons: [
     y: -5
     rotate: true
     mirror: false
-    reload: 50
-    shootSound: sap
+    reload: 100
+    shootSound: shootSmokeMissile
     bullet: {
-      type: LaserBoltBulletType
+      type: MissileBulletType
       width: 10
       height: 16
       weaveMag: 3
@@ -64,10 +64,10 @@ weapons: [
     y: -5
     rotate: true
     mirror: false
-    reload: 50
-    shootSound: sap
+    reload: 100
+    shootSound: shootSmokeMissile 
     bullet: {
-      type: LaserBoltBulletType
+      type: MissileBulletType
       width: 10
       height: 16
       weaveMag: 3
