@@ -1,4 +1,6 @@
-name: "In Aeria"
+displayName: In Aeria
+repo: didasker/In-Aeria
+name: in-aeria
 author: Didasker, Chromoxylograph
 description: "An HJSON mod that adds blue air units to Mindustry."
 version: "1.0"
