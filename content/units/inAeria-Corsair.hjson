@@ -14,6 +14,7 @@ range: 30
 maxRange: 40
 drawCell: false
 outlines: true
+
 weapons: [
   {
     x: 0
@@ -36,7 +37,7 @@ weapons: [
       trailLength: 6
       trailChance: -1
     }
-  }
+  },
   {
     x: 10
     y: -5
@@ -58,14 +59,14 @@ weapons: [
       trailLength: 8
       trailChance: -1
     }
-  }
+  },
   {
     x: -10
     y: -5
     rotate: true
     mirror: false
     reload: 100
-    shootSound: shootSmokeMissile 
+    shootSound: shootSmokeMissile
     bullet: {
       type: MissileBulletType
       width: 10
@@ -82,15 +83,14 @@ weapons: [
     }
   }
 ]
+
 abilities: [
-{
-type: ForceFieldAbility
-max: 500
-regen: 50
-cooldown: 600
-radius: 35
-sides: 9
-}
-]
+  {
+    type: ForceFieldAbility
+    max: 500
+    regen: 50
+    cooldown: 600
+    radius: 35
+    sides: 9
   }
 ]
