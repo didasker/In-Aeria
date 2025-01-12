@@ -1,7 +1,5 @@
 type: flying
 speed: 14
-accel: 0.07
-drag: 0.05
 flying: true
 hitSize: 1
 health: 75
@@ -40,7 +38,7 @@ weapons: [
       ]
     }
     shootWarmupSpeed: 0.025
-    minWarmup: 0.9
+    minWarmup: 0.1
     shootSound: sap
     bullet: {
       damage: 15
