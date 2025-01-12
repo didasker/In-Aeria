@@ -45,7 +45,7 @@ weapons: [
     reload: 50
     shootSound: sap
     bullet: {
-      type: ExplosionBulletType
+      type: LaserBoltBulletType
       width: 10
       height: 16
       weaveMag: 3
@@ -67,7 +67,7 @@ weapons: [
     reload: 50
     shootSound: sap
     bullet: {
-      type: ExplosionBulletType
+      type: LaserBoltBulletType
       width: 10
       height: 16
       weaveMag: 3
