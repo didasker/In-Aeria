@@ -16,23 +16,40 @@ drawCell: false
 outlines: true
 weapons: [
   {
-    type: ShootBarrel
-      shots: 1
-      shotDelay: 2
-      barrels: [
-        0, 0
-      ]
-    }
-    shootWarmupSpeed: 0.025
-    minWarmup: 0.9
-    shootSound: sap
-    bullet: {
-      damage: 15
-      speed: 0.5
-      drag: -0.03
-      lifetime: 105
-      sprite: circle-bullet
-      ]
+   x: 0
+    y: 0
+    shootY: 0
+    baseRotation: -90
+    reload: 50
+    alternate: false
+    parts: [
+      {
+        type: RegionPart
+        name: inAeria-divergeWeapon
+        layer: 90.4
+        outline: true
+        x: 0
+        y: 0
+      }
+    ]
+    shoot: {
+      type: ShootBarrel
+        shots: 1
+        shotDelay: 2
+        barrels: [
+          0, 0
+        ]
+      }
+      shootWarmupSpeed: 0.025
+      minWarmup: 0.9
+      shootSound: sap
+      bullet: {
+        damage: 15
+        speed: 0.5
+        drag: -0.03
+        lifetime: 105
+        sprite: circle-bullet
+      }
     }
   }
 }
