@@ -13,7 +13,7 @@ shadowElevationScl: 0.2
 range: 20
 maxRange: 20
 drawCell: false
-outlines: false
+outlines: true
 weapons: [
   {
     x: 0
