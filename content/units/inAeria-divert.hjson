@@ -18,34 +18,19 @@ weapons: [
   {
     x: 0
     y: 0
-    shootY: 0
-    recoil: 0
-    shootCone: 360
-    baseRotation: -90
-    reload: 20
-    alwaysShooting: false
-    ignoreRotation: false
     rotate: true
-    alternate: true
-    parts: [
-      {
-        type: RegionPart
-        name: "inAeria-divertWeapon"
-        layer: 95.1
-        outline: false
-        x: 0
-        y: 0
-      }
-    ]
-    shoot: {
+    mirror: false
+    reload: 20
+    shootSound: shoot
+    bullet: {
       type: BasicBulletType
       width: 6
       height: 10
       weaveMag: 4
-      weaveScale: 4
-      lifetime: 45
-      speed: 3
-      damage: 9
+      weaveScale: 3
+      lifetime: 55
+      speed: 4
+      damage: 15
       trailWidth: 1.5
       trailColor: d9dcbc
       trailLength: 6
