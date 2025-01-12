@@ -5,13 +5,13 @@
   "size": 3,
   "health": 560,
   "hasPower": true,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",
   "hasItems": true,
   "hasLiquids": false,
   "craftTime": 100,
-  "craftEffect": "smeltsmoke",
-  "updateEffect": "smeltsmoke",
   "consumes": {
-    "power": 640,
+    "power": 8.75,
     "items": {
       "items": [
         "sand/2",
@@ -48,8 +48,8 @@
       },
       {
         "type": "DrawCrucibleFlame",
-        "flameColor": "9e78dc",
-        "midColor": "8c0291"
+        "flameColor": "ff12cc",
+        "midColor": "FF0291"
       }
     ]
   }
