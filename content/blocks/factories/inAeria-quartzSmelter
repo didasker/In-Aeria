@@ -19,8 +19,7 @@ requirements: {
         { item: "silicon", amount: 125 },
         { item: "beryllium", amount: 250 },
         { item: "graphite", amount: 300 }
-    ],
-    tech: "oxidation-chamber"
+    ]
 }
 buildTime: 100
 category: production
