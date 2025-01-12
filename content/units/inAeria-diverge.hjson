@@ -35,7 +35,7 @@ weapons: [
     shoot: {
       type: ShootBarrel
         shots: 1
-        shotDelay: 2
+        shotDelay: 1
         barrels: [
           0, 0
         ]
