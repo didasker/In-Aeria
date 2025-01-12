@@ -1,4 +1,4 @@
-type: factory
+type: GenericCrafter
 size: 3
 health: 1000
 power: -560
@@ -27,7 +27,6 @@ category: production
 name: "Quartz Smelter"
 description: "Produces quartz from oxide and sand."
 icon: "quartz"
-animation: {
-    type: "smelter"
-    scale: 2
+drawers: {
+    type: "DrawCrucibleFlame"
 }
