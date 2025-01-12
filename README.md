@@ -1,12 +1,11 @@
 # In Aeria
 > A mod that adds blue air units. That's all!
 
-> Chromoxylograph - Lead Programmer
+## Credits
+Chromoxylograph - Lead Programmer, Spriter
 
-> Didasker - Programmer
+Didasker - Programmer, Lead Spriter
 
-> Didasker - Lead Spriter
+MiyoTize - gifted some sprites, very cool :D
 
-> Chromoxylograph - Spriter
-
-MiyoTize - gifted some sprites :D
+https://discord.gg/28FzErrzE4 In Aeria discord!
