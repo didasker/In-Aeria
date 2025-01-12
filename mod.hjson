@@ -1,0 +1,7 @@
+name: "in-aeria"
+displayName: "In Aeria"
+author: Didasker, Chromoxylograph
+description: "An HJSON mod that adds blue hovering units to Mindustry."
+version: "1.0"
+minGameVersion: "146"
+hidden: false
