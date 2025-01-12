@@ -34,9 +34,9 @@ weapons: [
       type: ShootBarrel
       shots: 1
       shotDelay: 1
-      barrels: [  // Add the key name "barrels" here
-        0,
-        1
+      barrels: [
+        0, 1, 90,
+        0, 1, 90
       ]
     }
     shootWarmupSpeed: 0.025
