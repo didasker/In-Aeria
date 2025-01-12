@@ -81,4 +81,17 @@ weapons: [
       trailChance: -1
     }
   }
+}
+{
+abilities: [
+{
+type: ForceFieldAbility
+max: 500
+regen: 50
+cooldown: 600
+radius: 35
+sides: 9
+}
+]
+  }
 ]
