@@ -20,13 +20,13 @@ weapons: [
     y: 0
     shootY: 0
     baseRotation: -90
-    reload: 50
+    reload: 20
     alternate: true
     parts: [
       {
         type: RegionPart
         name: inAeria-divertWeapon
-        layer: 90.4
+        layer: 95.1
         outline: false
         x: 0
         y: 0
@@ -43,12 +43,11 @@ weapons: [
     }
     shootWarmupSpeed: 0.025
     minWarmup: 0.1
-    shootSound: sap
+    shootSound: shoot
     bullet: {
       damage: 15
-      speed: 0.5
-      drag: -0.03
-      lifetime: 105
+      speed: 3
+      lifetime: 50
       sprite: BasicBulletType
     }
   }
