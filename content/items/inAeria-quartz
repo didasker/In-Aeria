@@ -1,0 +1,6 @@
+type: item
+name: "Quartz"
+description: "A common mineral used in electronics."
+icon: "inAeria-quartz"
+color: 0xffffff
+category: resource
