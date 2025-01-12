@@ -81,8 +81,7 @@ weapons: [
       trailChance: -1
     }
   }
-}
-{
+]
 abilities: [
 {
 type: ForceFieldAbility
