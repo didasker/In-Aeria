@@ -4,16 +4,16 @@ accel: 0.06
 drag: 0.05
 flying: true
 engineSize: 0
-hitSize: 1
+hitSize: 7
 health: 75
-armor: 1
+armor: 0
 lowAltitude: false
 name: "Divert"
 shadowElevationScl: 0.2
 range: 20
 maxRange: 20
 drawCell: false
-outlines: true
+outlines: false
 weapons: [
   {
     x: 0
@@ -21,13 +21,13 @@ weapons: [
     shootY: 0
     baseRotation: -90
     reload: 50
-    alternate: false
+    alternate: true
     parts: [
       {
         type: RegionPart
-        name: inAeria-divertWeapon.png
+        name: inAeria-divertWeapon
         layer: 90.4
-        outline: true
+        outline: false
         x: 0
         y: 0
       }
@@ -37,8 +37,8 @@ weapons: [
       shots: 2
       shotDelay: 1
       barrels: [
-        -1, 1, 0,
-        1, 1, 0
+        0, 0, 0,
+        0, 0, 0
       ]
     }
     shootWarmupSpeed: 0.025
@@ -49,7 +49,7 @@ weapons: [
       speed: 0.5
       drag: -0.03
       lifetime: 105
-      sprite: circle-bullet
+      sprite: BasicBulletType
     }
   }
 ]
