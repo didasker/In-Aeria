@@ -19,8 +19,13 @@ weapons: [
     x: 0
     y: 0
     shootY: 0
+    recoil: 0
+    shootCone: 360
     baseRotation: -90
     reload: 20
+    alwaysShooting: false
+    ignoreRotation: false
+    rotate: true
     alternate: true
     parts: [
       {
