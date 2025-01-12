@@ -26,6 +26,7 @@ category: production
 name: "Quartz Smelter"
 description: "Produces quartz from oxide and sand."
 icon: "inAeria-quartzSmelter.png"
+inEditor: true
 drawers: {
     type: "DrawCrucibleFlame"
 }
