@@ -25,7 +25,7 @@ weapons: [
     parts: [
       {
         type: RegionPart
-        name: inAeria-divertWeapon
+        name: "inAeria-divertWeapon"
         layer: 95.1
         outline: false
         x: 0
