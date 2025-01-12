@@ -35,8 +35,8 @@ weapons: [
       shots: 1
       shotDelay: 1
       barrels: [
-        0, 1, 90,
-        0, 1, 90
+        0, 1, 0,
+        0, 1, 0
       ]
     }
     shootWarmupSpeed: 0.025
