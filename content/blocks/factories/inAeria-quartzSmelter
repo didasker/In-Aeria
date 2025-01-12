@@ -1,0 +1,33 @@
+type: factory
+size: 3
+health: 1000
+power: -560
+consume: {
+    items: [
+        { item: "oxide", amount: 2 },
+        { item: "sand", amount: 3 }
+    ]
+}
+produce: {
+    items: [
+        { item: "copper", amount: 5 }
+    ]
+}
+requirements: {
+    items: [
+        { item: "oxide", amount: 50 },
+        { item: "silicon", amount: 125 },
+        { item: "beryllium", amount: 250 },
+        { item: "graphite", amount: 300 }
+    ],
+    tech: "oxidation-chamber"
+}
+buildTime: 100
+category: production
+name: "Quartz Smelter"
+description: "Produces quartz from oxide and sand."
+icon: "quartz"
+animation: {
+    type: "smelter"
+    scale: 2
+}
