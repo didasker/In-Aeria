@@ -34,9 +34,6 @@ weapons: [
       type: ShootBarrel
         shots: 1
         shotDelay: 1
-        barrels: [
-          0,
-          1
         ]
       }
       shootWarmupSpeed: 0.025
