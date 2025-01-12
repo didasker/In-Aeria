@@ -1,5 +1,7 @@
 type: flying
-speed: 14
+speed: 5
+accel: 0.06
+drag: 0.05
 flying: true
 hitSize: 1
 health: 75
@@ -30,11 +32,11 @@ weapons: [
     ]
     shoot: {
       type: ShootBarrel
-      shots: 1
+      shots: 2
       shotDelay: 1
       barrels: [
-        0, 1, 0,
-        0, 1, 0
+        -1, 1, 0,
+        1, 1, 0
       ]
     }
     shootWarmupSpeed: 0.025
