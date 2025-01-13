@@ -42,7 +42,7 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawDefault" 
+        "type": "DrawCrucibleFlame" 
       },
       {
         "type": "DrawFlame",
