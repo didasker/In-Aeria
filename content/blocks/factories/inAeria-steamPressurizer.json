@@ -4,7 +4,6 @@
   "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power.",
   "size": 3,
   "health": 650,
-  "craftEffect": "smeltsmoke",
   "hasPower": true,
   "powerProduction": 4.5
   "hasItems": false,
