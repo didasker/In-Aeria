@@ -1,7 +1,7 @@
 {
   "type": "HeatProducer",
   "name": "Steam Pressurizer",
-  "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power.",
+  "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate heat and power.",
   "size": 3,
   "health": 650,
   "hasPower": true,
@@ -19,7 +19,7 @@
       ]
     }
   },
-  "heatOutput": 5,
+  "heatOutput": 10,
   "requirements": [
     {
       "item": "beryllium",
