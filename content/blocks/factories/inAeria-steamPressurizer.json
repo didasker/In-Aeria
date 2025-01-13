@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Steam Pressurizer",
+  "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power and heat.",
+  "size": 3,
+  "health": 650,
+  "craftEffect": "smeltsmoke",
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "craftTime": 125,
+  "consumes": {
+    "power": -6.5,
+    "heat": -0.25
+    "liquids": {
+      "liquids": [
+        "water/35"
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 360
+    },
+    {
+      "item": "graphite",
+      "amount": 280
+    },
+    {
+      "item": "silicon",
+      "amount": 150
+    },
+    {
+      "item": "quartz",
+      "amount": 90
+    },
+  ],
+  "category": "crafting",
+  "research": "inAeria-quartzSmelter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawMultiWeave",
+        "weave": 1,
+        "glow": 1,
+        "pulse": 0.6,
+        "pulseScl": 6
+      },
+      {
+        "type": "DrawCrucibleFlame",
+        "flameColor": "ff12cc",
+        "midColor": "FF0291"
+      }
+    ]
+  }
+}
