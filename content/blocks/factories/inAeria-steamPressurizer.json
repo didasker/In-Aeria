@@ -39,6 +39,14 @@
   "category": "crafting",
   "research": "inAeria-quartzSmelter",
   "drawer": {
-    "type": "DrawWeave",
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawWeave",
+      }
+    ]
   }
 }
