@@ -45,9 +45,8 @@
         "type": "DrawDefault" 
       },
       {
-        "type": "DrawCrucibleFlame",
+        "type": "DrawFlame",
         "flameColor": "ff12cc",
-        "midColor": "FF0291"
       }
     ]
   }
