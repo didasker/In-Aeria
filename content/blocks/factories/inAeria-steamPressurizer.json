@@ -6,6 +6,7 @@
   "health": 650,
   "hasPower": true,
   "powerProduction": 4.5
+  "generationType": "basePowerGeneration",
   "hasItems": false,
   "hasLiquids": true,
   "craftTime": 125,
