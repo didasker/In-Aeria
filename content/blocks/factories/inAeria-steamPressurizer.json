@@ -45,7 +45,7 @@
         "type": "DrawDefault" 
       },
       {
-        "type": "DrawWeave",
+        "type": "DrawFlame",
       }
     ]
   }
