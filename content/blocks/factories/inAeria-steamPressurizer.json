@@ -6,7 +6,7 @@
   "health": 650,
   "craftEffect": "smeltsmoke",
   "hasPower": true,
-  "powerProduction": 1.5
+  "powerProduction": 4.5
   "hasItems": false,
   "hasLiquids": true,
   "craftTime": 125,
@@ -14,7 +14,7 @@
     "power": 2.5,
     "liquids": {
       "liquids": [
-        "water/35"
+        "water/0.6"
       ]
     }
   },
