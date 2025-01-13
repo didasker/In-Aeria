@@ -1,5 +1,5 @@
 {
-  "type": "GenericCrafter",
+  "type": "HeatProducer",
   "name": "Steam Pressurizer",
   "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power.",
   "size": 3,
