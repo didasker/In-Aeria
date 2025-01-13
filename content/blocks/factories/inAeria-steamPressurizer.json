@@ -40,9 +40,5 @@
   "research": "inAeria-quartzSmelter",
   "drawer": {
     "type": "DrawWeave",
-    "weave": 1,
-    "glow": 1,
-    "pulse": 0.6,
-    "pulseScl": 6
   }
 }
