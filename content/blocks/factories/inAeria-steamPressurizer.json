@@ -19,7 +19,7 @@
       ]
     }
   },
-  "heatGeneration": 5,
+  "heatOutput": 5,
   "requirements": [
     {
       "item": "beryllium",
