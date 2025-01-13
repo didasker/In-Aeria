@@ -5,8 +5,6 @@
   "size": 3,
   "health": 560,
   "hasPower": true,
-  "craftEffect": "smeltsmoke",
-  "updateEffect": "smeltsmoke",
   "hasItems": true,
   "hasLiquids": false,
   "craftTime": 100,
