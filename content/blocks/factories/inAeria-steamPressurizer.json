@@ -5,8 +5,8 @@
   "size": 3,
   "health": 650,
   "hasPower": true,
-  "powerProduction": 4.5
   "generationType": "basePowerGeneration",
+  "powerProduction": 4.5,
   "hasItems": false,
   "hasLiquids": true,
   "craftTime": 125,
@@ -34,7 +34,7 @@
     {
       "item": "quartz",
       "amount": 90
-    },
+    }
   ],
   "category": "crafting",
   "research": "inAeria-quartzSmelter",
@@ -42,7 +42,7 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawDefault" 
+        "type": "DrawDefault"
       },
       {
         "type": "DrawCrucibleFlame",
