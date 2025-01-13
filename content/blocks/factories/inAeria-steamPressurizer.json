@@ -6,7 +6,8 @@
   "health": 650,
   "hasPower": true,
   "generationType": "basePowerGeneration",
-  "powerProduction": 4.5,
+  "powerProduction": 8,
+  "efficiency": 1.2,
   "hasItems": false,
   "hasLiquids": true,
   "craftTime": 125,
@@ -14,10 +15,11 @@
     "power": 2.5,
     "liquids": {
       "liquids": [
-        "water/0.6"
+        "water/0.8"
       ]
     }
   },
+  "heatGeneration": 5,
   "requirements": [
     {
       "item": "beryllium",
