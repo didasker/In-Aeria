@@ -41,10 +41,10 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawCrucibleFlame" 
+        "type": "DrawBlock" 
       },
       {
-        "type": "DrawFlame",
+        "type": "DrawCrucibleFlame",
       }
     ]
   }
