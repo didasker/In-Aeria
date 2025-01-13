@@ -45,6 +45,8 @@
       },
       {
         "type": "DrawCrucibleFlame",
+        "flameColor": "ccffcc",
+        "midColor": "ccff66"
       }
     ]
   }
