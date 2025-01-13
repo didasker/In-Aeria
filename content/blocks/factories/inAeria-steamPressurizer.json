@@ -41,7 +41,7 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawBlock" 
+        "type": "DrawDefault" 
       },
       {
         "type": "DrawCrucibleFlame",
