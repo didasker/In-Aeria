@@ -45,8 +45,9 @@
         "type": "DrawDefault" 
       },
       {
-        "type": "DrawPlasma",
+        "type": "DrawArcSmelt",
         "flameColor": "ff12cc",
+        "midColor": "ff1277",
       }
     ]
   }
