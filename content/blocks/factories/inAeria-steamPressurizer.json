@@ -1,12 +1,11 @@
 {
   "type": "GenericCrafter",
   "name": "Steam Pressurizer",
-  "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power and heat.",
+  "description": "Evaporates large amounts of water to make steam, then pressurizes it to generate power.",
   "size": 3,
   "health": 650,
   "craftEffect": "smeltsmoke",
   "hasPower": true,
-  "heatOutput": 10.0
   "powerProduction": 1.5
   "hasItems": false,
   "hasLiquids": true,
